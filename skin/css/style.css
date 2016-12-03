@@ -1854,6 +1854,7 @@ img, .ylw-img-responsive {
 	float:left;
 }
 .picdiv img{
+	overflow: hidden;
 	width:100%;
 	height:100%;
 	max-width:100%;
@@ -1864,6 +1865,7 @@ img, .ylw-img-responsive {
 	width:100%;
 }
 .picdiv3 img{
+	overflow: hidden;
 	width:100%;
 	height:100%;
 	max-width:100%;

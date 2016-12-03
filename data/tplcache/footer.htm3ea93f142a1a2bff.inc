@@ -25,11 +25,9 @@ $z[11]=Array("global","",4329,4355);
 $z[11][4]['name']="cfg_webname";
 $z[12]=Array("global","",4690,4716);
 $z[12][4]['name']="cfg_powerby";
-$z[13]=Array("flink","  [field:link /]  ",6131,6209);
-$z[13][4]['titlelen']="20";
-$z[13][4]['row']="20";
-$z[13][4]['type']="text";
-$z[14]=Array("type"," <a href=\"[field:typelink/]\" class=\"kefu-lx\" title=\"[field:typename/]\" target=\"_blank\">[field:typename/]</a>",7269,7412);
+$z[13]=Array("global","",6118,6145);
+$z[13][4]['name']="cfg_powerby";
+$z[14]=Array("type"," <a href=\"[field:typelink/]\" class=\"kefu-lx\" title=\"[field:typename/]\" target=\"_blank\">[field:typename/]</a>",7169,7312);
 $z[14][4]['typeid']="25";
 
 ?>
