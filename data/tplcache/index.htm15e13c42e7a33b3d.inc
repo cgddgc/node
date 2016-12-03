@@ -80,7 +80,7 @@ $z[30][4]['titlelen']="50";
 $z[30][4]['typeid']="9";
 $z[31]=Array("type"," <a href=\"[field:typelink/]\" >查看更多 MORE &rarr;</a>",27843,27935);
 $z[31][4]['typeid']="9";
-$z[32]=Array("include","",28292,28329);
+$z[32]=Array("include","",28364,28401);
 $z[32][4]['filename']="footer.htm";
 
 ?>
