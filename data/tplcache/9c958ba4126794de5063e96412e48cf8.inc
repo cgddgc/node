@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="bdsharebuttonbox" rel="nofollow"><img src="/skin/images/fenxiang.png" width="18" height="18" alt="联系我们" class="bds_more" data-cmd="more"></a>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link href="/skin/css/bootstrap.min.css" rel="stylesheet">
+<link href="/skin/css/style.css" rel="stylesheet">
+<link href="/skin/css/shake.css" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico" />
+<!--[if lt IE 9]>
+<script src="/skin/js/html5shiv.min.js"></script>
+<script src="/skin/js/respond.min.js"></script>
+<link href="/skin/css/ie8.css" rel="stylesheet">
+<![endif]-->
+<!--[if lte IE 6]>
+<meta http-equiv="refresh" content="0;url=/no-ie6.html" />
+<![endif]-->
+<!--[if lte IE 7]>
+<meta http-equiv="refresh" content="0;url=/no-ie6.html" />
+<![endif]-->
+</head>
+<body>
+<!-- head start --> 
+{dede:include filename="head.htm"/} 
+<!-- head end --> 
+<!-- banner start -->
+<div class="banner text-center">
+  <div class="box hba" style="background-image:url(/skin/images/16.jpg)"> </div>
+</div>
+<!-- banner end --> 
+<!-- crumbs start -->
+<div class="crumbs">
+  <div class="container">
+    <div class="btn-group pull-right hidden-xs">
+      <button type="button" class="btn btn-menu btn-default dropdown-toggle" data-toggle="dropdown">更多菜单 Menu <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        {dede:channel type='son'}
+        <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+    </div>
+    <ol class="breadcrumb">
+      <li>{dede:field name='position'/}</li>
+    </ol>
+  </div>
+</div>
+<!-- crumbs end --> 
+<!-- content start -->
+<div class="neirong"> {dede:field.content/} </div>
+<!-- content end --> <!-- kj-link start -->
+<div class="kj-link text-center">
+  <article class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h3>我们的服务 Our Services</h3>
+        <p>我们可以为您提供的服务及我们对服务的态度，服务流程、服务优势、我们眼中的办公环境是怎样的。How are the services that we could provide to you, our attitude toward service, our service process, service advantages and the office environment in our eyes</p>
+        <p>{dede:type typeid='17'} <a href="[field:typelink/]" >立即前往 Now Go &rarr;</a>{/dede:type} </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h3>我们的成功案例 Our Successful Cases</h3>
+        <p>我们为您精心挑选的经典案例，去感受不一样的办公环境体验，服务于世界500强的企业为您服务。You can go to review our classic cases that we have picked for you so as to experience different office environments. The enterprise that has serviced world Top 500 enterprises will serve you as well.</p>
+        <p>{dede:type typeid='11'} <a href="[field:typelink/]" >立即前往 Now Go &rarr;</a>{/dede:type} </p>
+      </div>
+    </div>
+  </article>
+</div>
+<!-- kj-contact start --> 
+{dede:include filename="footer.htm"/} 
+<!-- kefu end -->
+</body>
+</html>

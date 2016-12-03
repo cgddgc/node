@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="kefu-lx" title="[field:typename/]" target="_blank">[field:typename/]</a>

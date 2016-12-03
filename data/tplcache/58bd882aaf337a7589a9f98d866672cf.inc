@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="btn btn-success" target="_blank">查看更多 MORE &rarr;</a>

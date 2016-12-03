@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" >立即前往 Now Go &rarr;</a>
