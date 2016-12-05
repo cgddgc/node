@@ -1,2 +1,0 @@
-INSERT INTO `dede_search_keywords` VALUES('1','网站联','网站联 网站','1','1','1449067551','0','0');
-INSERT INTO `dede_search_keywords` VALUES('2','网站','网站','3','8','1449067921','0','0');
