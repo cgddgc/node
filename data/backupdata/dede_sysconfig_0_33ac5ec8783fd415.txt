@@ -4,7 +4,7 @@ INSERT INTO `dede_sysconfig` VALUES('3','cfg_cookie_encode','cookie加密码','2
 INSERT INTO `dede_sysconfig` VALUES('4','cfg_indexurl','网页主页链接','1','string','/');
 INSERT INTO `dede_sysconfig` VALUES('5','cfg_backup_dir','数据备份目录（在data目录内）','2','string','backupdata');
 INSERT INTO `dede_sysconfig` VALUES('6','cfg_indexname','主页链接名','1','string','主页');
-INSERT INTO `dede_sysconfig` VALUES('7','cfg_webname','网站名称','1','string','广州');
+INSERT INTO `dede_sysconfig` VALUES('7','cfg_webname','网站名称','1','string','广州逆渡信息科技有限公司');
 INSERT INTO `dede_sysconfig` VALUES('8','cfg_adminemail','网站发信EMAIL','2','string','admin@dedecms.com');
 INSERT INTO `dede_sysconfig` VALUES('9','cfg_html_editor','Html编辑器（ckeditor,需要fck的用户可以去官网下载）','2','string','ckeditor');
 INSERT INTO `dede_sysconfig` VALUES('10','cfg_arcdir','文档HTML默认保存路径','1','string','/a');
@@ -25,7 +25,7 @@ INSERT INTO `dede_sysconfig` VALUES('24','cfg_df_style','模板默认风格','1'
 INSERT INTO `dede_sysconfig` VALUES('25','cfg_multi_site','(是/否)支持多站点，开启此项后附件、栏目连接、arclist内容启用绝对网址','2','bool','N');
 INSERT INTO `dede_sysconfig` VALUES('58','cfg_rm_remote','远程图片本地化','7','bool','Y');
 INSERT INTO `dede_sysconfig` VALUES('27','cfg_dede_log','(是/否)开启管理日志','2','bool','N');
-INSERT INTO `dede_sysconfig` VALUES('28','cfg_powerby','网站版权信息','1','bstring','Copyright &copy; 2013-2017 逆渡信息技术 版权所有');
+INSERT INTO `dede_sysconfig` VALUES('28','cfg_powerby','网站版权信息','1','bstring','©2013-2017 广州逆渡信息科技有限公司 版权所有');
 INSERT INTO `dede_sysconfig` VALUES('722','cfg_jump_once','跳转网址是否直接跳转？（否则显示中转页）','7','bool','Y');
 INSERT INTO `dede_sysconfig` VALUES('723','cfg_task_pwd','系统计划任务客户端许可密码<br/>(需要客户端，通常不会太重要)','7','string','');
 INSERT INTO `dede_sysconfig` VALUES('29','cfg_arcsptitle','(是/否)开启分页标题，开启会影响HTML生成速度','6','bool','N');

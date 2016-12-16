@@ -10,13 +10,13 @@ $z[3][4]['name']="description";
 $z[3][4]['function']="html2text(@me)";
 $z[4]=Array("include","",1063,1098);
 $z[4][4]['filename']="head.htm";
-$z[5]=Array("channel","\r\n        <li><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n        ",1590,1707);
+$z[5]=Array("channel","\r\n        <li><a href='[field:typeurl/]'>[field:typename/]</a></li>\r\n        ",1594,1711);
 $z[5][4]['type']="son";
-$z[6]=Array("field","",1773,1802);
+$z[6]=Array("field","",1777,1806);
 $z[6][4]['name']="position";
-$z[7]=Array("field","",1906,1927);
+$z[7]=Array("field","",1910,1931);
 $z[7][4]['name']="content";
-$z[8]=Array("include","",1964,2001);
+$z[8]=Array("include","",1968,2005);
 $z[8][4]['filename']="footer.htm";
 
 ?>
